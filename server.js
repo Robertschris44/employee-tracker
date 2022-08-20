@@ -1,4 +1,5 @@
 const express = require('express');
+const promptUser = require("./lib/index");
 //connect to port for local host
 const PORT = process.env.PORT || 3001;
 //connects to js in db folder
@@ -15,6 +16,17 @@ app.use((req, res) => {
     res.status(404).end();
 });
 
+
+
+//START SERVER
+db.connect(err => {
+    if (err) throw err;
+    console.log('Connected');
+    app.listen(PORT, () => {
+        console.log(`Server Running ${PORT}`);
+        promptUser();
+    });
+});
 
 
 
