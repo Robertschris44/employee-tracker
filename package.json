@@ -1,6 +1,28 @@
 {
   "dependencies": {
+    "express": "^4.18.1",
     "inquirer": "^8.2.4",
+    "mysql": "^2.18.1",
     "mysql2": "^2.3.3"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "employee-tracker",
+  "description": "## installation npm i inquirer@8.2.4 npm i mysql2",
+  "version": "1.0.0",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robertschris44/employee-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robertschris44/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/Robertschris44/employee-tracker#readme"
 }
