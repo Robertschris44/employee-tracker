@@ -1,0 +1,30 @@
+ // goes on line 25 in index.js if it doesn't work .then(userSelection =>{
+    //     let selection = userSelection.selection;
+    //     switch(selection){
+    //         case 'View Employees':
+    //             viewEmployees();
+                // break;
+                // case 'View Manager':
+                //     viewManager();
+                //     break;
+                //     case 'View Roles':
+                //         viewRoles();
+                //         break;
+                //         case 'View Departments':
+                //             viewDepartments();
+                //             break;
+                //             case 'Add Department':
+                //                 addDepartement();
+                //                 break;
+                //                 case 'Add a Role':
+                //                     addRole();
+                //                     break;
+                //                     case 'Add an Employee':
+                //                         addEmployee();
+                //                         break;
+                //                         case 'Update and Employee role':
+                //                         updateRole();
+                //                         break;
+        //                                 default:
+        //                                     endApp();
+        // }
