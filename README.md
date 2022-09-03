@@ -3,6 +3,7 @@
 ## installation
 npm i inquirer@8.2.4
 npm i mysql2
+console.table
 
 ## Usage
 GIVEN a command-line application that accepts user input
